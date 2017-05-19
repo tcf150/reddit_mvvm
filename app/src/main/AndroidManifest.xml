@@ -15,7 +15,6 @@
         <activity
             android:name=".ui.Main.MainActivity"
             android:label="@string/app_name"
-            android:screenOrientation="sensorPortrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +25,6 @@
         <activity
             android:name=".ui.AddTopic.AddTopicActivity"
             android:label="@string/add_topic"
-            android:screenOrientation="sensorPortrait"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
